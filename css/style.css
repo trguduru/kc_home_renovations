@@ -85,12 +85,12 @@ a:hover {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 0;
+  gap: 1rem;
 }
 
 .nav-list li a {
   display: block;
-  padding: 0.5rem 0.75rem;
+  padding: 0.35rem 0.5rem;
   font-size: 1rem;
   color: var(--dark-blue);
   font-weight: 600;
@@ -100,7 +100,7 @@ a:hover {
 .nav-list li a:hover,
 .nav-list li a[aria-current="page"] {
   color: var(--orange);
-  background: rgba(232, 93, 4, 0.08);
+  background: rgba(232, 93, 4, 0.05);
 }
 
 /* Main content container */
